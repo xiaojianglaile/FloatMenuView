@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatMenuView">
+        <attr name="minTopDistance" format="integer"/>
+        <attr name="minBottomDistance" format="integer"/>
+        <attr name="slideBlockSpeed" format="integer"/>
+    </declare-styleable>
+</resources>

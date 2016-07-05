@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jym.floatmenuview.view.ControllableSlideViewPager
+        android:id="@+id/vpContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.jym.floatmenuview.view.ControllableSlideViewPager>
+
+    <com.jym.floatmenuview.view.FloatMenuView
+        android:id="@+id/fv_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fv:minBottomDistance="100"
+        fv:minTopDistance="100"
+        fv:slideBlockSpeed="5">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="#000000"
+            android:orientation="vertical" />
+
+    </com.jym.floatmenuview.view.FloatMenuView>
+
+</RelativeLayout>
